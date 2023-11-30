@@ -1,6 +1,6 @@
 import Project from '../components/project/Project'
 
-import { projects } from './../helpers/projectList'
+import { projects } from '../helpers/ProjectList'
 
 const Projects = () => {
   return (
@@ -10,10 +10,12 @@ const Projects = () => {
         <ul className="projects">
           {projects.map((project, index) => {
             return (
-              <Project key={index} 
-              title={project.title}
-               img={project.img}
-               index={index} />
+              <Project
+                key={index}
+                title={project.title}
+                img={project.img}
+                index={index}
+              />
             )
           })}
         </ul>

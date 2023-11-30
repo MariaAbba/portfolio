@@ -1,19 +1,15 @@
-// import {Navlink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './style.css'
 
-
-
-const Project = ({title, img, index }) => {
+const Project = ({ title, img, index }) => {
   return (
-    // <Navlink to={`/project/${index}`}>
+    <NavLink to={`/project/${index}`}>
       <li className="project">
-        {/* <a href="./project-page.html"> */}
-          <img src={img} alt={title} className="project__img" />
-          <h3 className="project__title">{title}</h3>
-        {/* </a> */}
+        <img src={img} alt={title} className="project__img" />
+        <h3 className="project__title">{title}</h3>
       </li>
-    // </Navlink>
+    </NavLink>
   )
 }
- 
-export default Project;
+
+export default Project
