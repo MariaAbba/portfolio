@@ -14,7 +14,7 @@ const Navbar = () => {
           <NavLink to="/" className="logo">
             <strong>Freelancer</strong> portfolio
           </NavLink>
-          <BtnDarkMode/>
+          <BtnDarkMode />
           <ul className="nav-list">
             <li className="nav-list__item">
               <NavLink
