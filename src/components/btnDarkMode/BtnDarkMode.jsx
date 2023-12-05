@@ -8,10 +8,12 @@ import './style.css'
 
 const BtnDarkMode = () => {
   const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode())
+  
 
   useEffect(() => {
     if (darkMode === 'dark') {
       document.body.classList.add('dark')
+      
     } else {
       document.body.classList.remove('dark')
     }
@@ -39,6 +41,7 @@ const BtnDarkMode = () => {
     <button
       className={darkMode === 'dark' ? btnActive : btnNormal}
       onClick={toggleDarkMode}
+     
     >
       <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
       <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />

@@ -9,4 +9,3 @@ const detectDarkMode = () => {
 }
 
 
-export default detectDarkMode
