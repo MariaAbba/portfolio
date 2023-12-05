@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import github from './../../img/icons/github.svg'
+import github from './../../img/icons/gitHub.svg'
 import linkedin from './../../img/icons/linkedin.svg'
 
 
