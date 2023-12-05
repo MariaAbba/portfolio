@@ -8,4 +8,4 @@ const detectDarkMode = () => {
   return 'light'
 }
 
-
+export default detectDarkMode

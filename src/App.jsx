@@ -8,7 +8,7 @@ import Projects from './pages/Projects'
 import Project from './pages/Project'
 import Contacts from './pages/Contacts'
 import Footer from './components/footer/Footer'
-import ScrollToTop from './utils/ScrollToTop.jsx'
+import ScrollToTop from './utils/ScrollToTop'
 
 function App() {
   return (
