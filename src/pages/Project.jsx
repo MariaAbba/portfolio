@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
 import BtnGitHub from '../components/btnGitHub/BtnGitHub'
 import { projects } from '../helpers/ProjectList'
-import img from './../img/projects/02-big.jpg'
+import img from './../img/projects/02-big.png'
 
 const Project = () => {
   const { id } = useParams()
