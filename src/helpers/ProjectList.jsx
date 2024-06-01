@@ -18,42 +18,42 @@ import project06Big from './../img/projects/06-big.png'
 
 const projects = [
   {
-    title: 'Gaming streaming portal',
+    title: 'E-commerce website',
     skills: 'React',
     img: project01,
     imgBig: project01Big,
     gitHubLink: 'https://github.com/MariaAbba',
   },
   {
-    title: 'Video service',
+    title: 'E-commerce website',
     skills: 'React',
     img: project02,
     imgBig: project02Big,
     gitHubLink: 'https://github.com/MariaAbba',
   },
   {
-    title: 'Video portal',
+    title: 'Business Website',
     skills: 'React',
     img: project03,
     imgBig: project03Big,
     gitHubLink: 'https://github.com/MariaAbba',
   },
   {
-    title: 'Dating app',
+    title: 'Educational Website',
     skills: 'React',
     img: project04,
     imgBig: project04Big,
     gitHubLink: 'https://github.com/MariaAbba',
   },
   {
-    title: 'Landing',
+    title: 'Informational Website',
     skills: 'React',
     img: project05,
     imgBig: project05Big,
     gitHubLink: 'https://github.com/MariaAbba',
   },
   {
-    title: 'Gaming community',
+    title: 'Booking website',
     skills: 'React',
     img: project06,
     imgBig: project06Big,
