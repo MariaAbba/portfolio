@@ -9,7 +9,7 @@ const Header = () => {
           <strong>
             Hi, my name is <em>Maria</em>
           </strong>
-          <br />a front-end developer
+          <br />a frontend developer
         </h1>
         <div className="header__text">
           <p>with a passion for learning and creating.</p>
